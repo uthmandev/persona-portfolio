@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Uthman Umar</title>
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- google fonts cdn -->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Nunito+Sans:ital,wght@0,200;1,200&family=Oxygen:wght@300&family=Poppins:wght@200&family=Roboto:wght@100;300;400&family=Rubik&family=Source+Code+Pro:ital,wght@1,200&family=Space+Mono&family=Water+Brush&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" id="cssfile" href="lightmode.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="container flex">
+            <h1 class="logo">Uthman Umar</h1>
+            <ul class="navigation">
+                <li class="nav-link"><a href="#about-me">About Me</a></li>
+                <li class="nav-link"><a href="#projects">Projects</a></li>
+                <li class="nav-link"><a href="#skills">Skills</a></li>
+                <li class="nav-link"><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="dmbutton">Dark Mode</button>
+        </div>
+    </nav>
+
+    <!-- ABOUT ME -->
+    <main>
+        <section id="about-me">
+            <div class="container flex">
+                <div class="about-me-text-container">
+                    <h2>About Me</h2>
+                        <p class="about-story">Hello, I'm Uthman Umar. I'm a tech enthusiast, a <strong>Frontend Engineer</strong> in view. I had my certificate in <strong>Web Design & Development.</strong>
+                        </p>
+
+                        <p class="about-story">I started off as a web designer afterwards gradauted to becoming a frondend engineer. I have had courses in web design ranging from:WordPress and UI/UX.
+                        </p>
+                        <p class="about-story">The journey has enabled me master the different technologies needed in web development.
+                        </p>
+
+                        <p class="about-story">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quam recusandae porro optio, natus, beatae mollitia est consequatur consectetur officia dolores. Maxime doloribus qui saepe minus laudantium ipsa id, asperiores reprehenderit, quia, illum a? Voluptatem maxime ipsum quae ad culpa?
+                        </p>
+                    </div>
+                    <img src="./img/developer.jpg" alt="web-developer">
+                </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects">
+                    <div class="box">
+                        <a target="_blank" href="https://uthmandev.github.io/creamy-chocolate/">
+                          <img src="https://images.unsplash.com/photo-1426869884541-df7117556757?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb" alt="project-img" class="project-img">
+                          <p>
+                            <span class="code">&lt;</span>
+                            Creamy Chocolate Cupcakes
+                            <span class="code">/&gt;</span>
+                          </p>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a target="_blank" href="https://uthmandev.github.io/number-guesser/">
+                          <img src="https://images.pexels.com/photos/7939943/pexels-photo-7939943.jpeg?cs=srgb&dl=pexels-brett-jordan-7939943.jpg&fm=jpg" alt="project-img" class="project-img">
+                          <p>
+                            <span class="code">&lt;</span>
+                            Number Guesser 
+                            <span class="code">&gt;</span>
+                          </p>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a target="_blank" href="https://uthmandev.github.io/secret-message-app/">
+                          <img src="https://images.pexels.com/photos/906018/pexels-photo-906018.jpeg?cs=srgb&dl=pexels-noelle-otto-906018.jpg&fm=jpg"  alt="project-img" class="project-img">
+                          <p>
+                            <span class="code">&lt;</span>
+                            Secret Message App
+                            <span class="code">/&gt;</span>
+                          </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <i class="fab fa-html5 fa-6x"></i>
+                    <i class="fab fa-css3-alt fa-6x"></i>
+                    <i class="fab fa-js fa-6x"></i>
+                    <i class="fa-brands fa-wordpress fa-6x"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="container">
+              <h1>Let's work together...</h1>
+              <p>Need help with your project? Just ask!</p>
+              <div class="social">
+                <div>
+                  <a target="_blank" href="#">
+                    <i class="fab fa-facebook fa-1x"></i>
+                    Facebook
+                  </a>
+                  <a id="profile-link" target="_blank" href="https://www.github.com/uthmandev">
+                    <i class="fab fa-github fa-1x"></i>
+                    Github
+                  </a>
+                  <a target="_blank" href="#">
+                    <i class="fab fa-twitter fa-1x"></i>
+                    Twitter
+                  </a>
+                  <a href="#">
+                    <i class="fas fa-envelope-open-text fa-1x"></i>
+                    Mail
+                  </a>
+                  <a href="#">
+                    <i class="fas fa-phone fa-1x"></i>
+                    Call Me
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
+</body>
+</html>
